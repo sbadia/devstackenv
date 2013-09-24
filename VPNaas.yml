@@ -1,0 +1,13 @@
+---
+west:
+  ip_priv: 10.1.0.1
+  image: ubuntu-1204
+  ram: '1536'
+  cpu: '2'
+  dev_dir: '/home/sbadia/dev'
+east:
+  ip_priv: 10.2.0.1
+  image: ubuntu-1204
+  ram: '1536'
+  cpu: '2'
+  dev_dir: '/home/sbadia/dev'
