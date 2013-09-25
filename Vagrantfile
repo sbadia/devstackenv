@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 require 'yaml'
-conf = ENV['conf'] || conf='./conf.yml'
+conf = ENV['conf'] || conf='./confs/conf.yml'
 #abort 'Please provide conf file (conf=./conf.yml)' unless ENV['conf']
 conf_boxes = YAML::load_file(conf)
 

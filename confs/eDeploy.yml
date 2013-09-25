@@ -1,0 +1,7 @@
+---
+eDeploy:
+  ip_priv: 10.1.0.1
+  image: ubuntu-1204
+  ram: '256'
+  cpu: '1'
+  dev_dir: '/home/sbadia/dev'
